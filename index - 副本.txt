@@ -13,13 +13,16 @@
     <link rel="stylesheet" type="text/css" href="./css/FiraCode.css">
     <link rel="stylesheet" type="text/css" href="./css/nutssss.css">
     <link rel="icon" href="./favicon.png">
-    
 </head>
 
 <body>
     <div id="box">
         <!-- 个人资料卡片 -->
         <div class="meBox">
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
             <!-- 介绍 -->
             <div class="meBox-title">
                 <p>I'm Bob实况</p>
@@ -125,18 +128,18 @@
                     <span style="color: rgb(39, 39, 39);">今日天气&Music</span>
                     <p></p>
                     <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=ya&skin=pitaya" frameborder="0" width="220" height="200" allowtransparency="true"></iframe>
-                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=396696&auto=1&height=66"></iframe>
+                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=4010229&auto=1&height=66"></iframe>
                 </div>
             </div>
               
         </div>
     </div>
+    
     <!-- 页脚 -->
     <div id="footer">
         <p>© 2021 Bob实况 | <a href="http://space.bilibili.com/401947867">Bob实况的Bili官方频道</a></p>
         <p>网站托管 BY <a href="www.github.com">Github</a></p>
     </div>
-    <video>
 </body>
 
 </html>
