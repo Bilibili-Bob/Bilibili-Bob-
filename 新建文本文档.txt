@@ -68,7 +68,7 @@
                     </br>
                     <a href="https://space.bilibili.com/500073770">友链：晓鱼Fish</a>
                     </br>
-                    <a href="./video/video.html">Bob实况的视频</a>
+                    <a href="#">友链招租</a>
                     </br>
                     <a href="#">友链招租</a>
                     </br>
@@ -120,7 +120,7 @@
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">今日天气&Music</span>
                     <p></p>
-                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=33166666&auto=1&height=66"></iframe>
+                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26090106&auto=1&height=66"></iframe>
                     </br>
                     <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=ya&skin=pitaya" frameborder="0" width="250" height="200" allowtransparency="true"></iframe>
                 </div>
@@ -130,8 +130,8 @@
     </div>
     <!-- 页脚 -->
     <div id="footer">
-        <p>© 2021 Bob实况 | <a href="http://mc-bob.now.sh">Bob实况的官方网站</a></p>
-        <p>网站托管 By <a href="https://www.github.com">Github</a></p>
+        <p>© 2021 Bob实况 | <a href="http://space.bilibili.com/401947867">Bob实况的Bili官方频道</a></p>
+        <p>网站托管 By <a href="www.github.com">Github</a></p>
     </div>
     <video>
 </body>
