@@ -9,11 +9,9 @@
     <title>Bob实况 | 一个热爱游戏的UP主</title>
     <meta name="description"
         content="Bob实况">
-    <meta name="keywords" content="林菀莹">
+    <meta name="keywords" content="">
 	<meta name="keywords" content="Bob实况">
-	<meta name="keywords" content="Bilibili">
-	<meta nmae="keywords" content="Bili">
-	<meta name="keywords" content="bili">
+	<meta name="keywords" content="Bob实况的网站">
 	<meta name="keywords" content="B站">
     <link rel="stylesheet" type="text/css" href="./css/FiraCode.css">
     <link rel="stylesheet" type="text/css" href="./css/nutssss.css">
@@ -34,9 +32,20 @@
             </div>
             <div class="meBox-text">
                 <p>你好，这里是Bob实况的官方网站</p>
-                <p>其实也没什么东西</p>
-                <p>打游戏最快乐了</p>
-                <p>最爱<img src="./img/002.png" alt="我的世界" style="width: 100px; vertical-align: middle;"></p>
+                <p id="ymd"></p>
+                    <script>
+                        var date = new Date()<!--获得日期数据-->
+                        var y = date.getFullYear();<!--年-->
+                        var m = date.getMonth()+1;<!--月，这里的月份必须要+1才是当前月份-->
+                        var d = date.getDate(); <!--日，getDay是获得当前星期几（0-6），getDate是获得当前日期-->
+                        document.getElementById("ymd").innerHTML = "今天是"+y+"年"+m+"月"+d+"日";
+                    </script>
+                    <script type="text/javascript" src="dtxt1.js"></script>
+
+				<script src="./css/lovetime.js.下载"></script>
+				<h1 style="font-family:Consolas">2021.5.23</h1>
+				<h1 style="font-family:Consols">展示此处隐藏内容</h1>
+                <!-- <p>最爱<img src="./img/002.png" alt="我的世界" style="width: 100px; vertical-align: middle;"></p> -->
             </div>
             <!-- 两个按钮 -->
             <div class="meBox-Button">
