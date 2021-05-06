@@ -39,7 +39,7 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url("https://c-ssl.duitang.com/uploads/item/201803/29/20180329042616_hVysf.jpeg");
+    background: url(https://c-ssl.duitang.com/uploads/item/201803/29/20180329042616_hVysf.jpeg);
     background-size: cover;
     border-radius: 50%;
     position: relative;
