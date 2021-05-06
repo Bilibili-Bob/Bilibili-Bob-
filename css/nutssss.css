@@ -39,14 +39,14 @@ body {
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://c-ssl.duitang.com/uploads/item/201803/29/20180329042616_hVysf.jpeg) no-repeat;
+    background: url(https://i.pinimg.com/236x/81/3a/8c/813a8cc1cd5a336cc31da5b838c492fc.jpg) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
     top: -15%;
     left: 50%;
     margin-left: -4rem;
-    transition: all 1s;
+    transition: all 0.3s;
 }
 
 .meBox:hover .headPhoto {
