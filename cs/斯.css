@@ -50,8 +50,8 @@ body {
 }
 
 .meBox:hover .headPhoto {
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
     margin: -0.5rem 0 0 -4.5rem;
     transform: rotate(360deg);
 }
