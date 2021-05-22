@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left, rgba(255, 0, 149, 0.2), rgba(0, 247, 255, 0.2)), url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#box {
+    /* background-color: red; */
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.meBox {
+    float: left;
+    width: 20rem;
+    height: 25rem;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 10%;
+    border-radius: 2%;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.meBox:hover {
+    width: 21rem;
+    height: 26rem;
+    margin: 95px 0 0 9.5%;
+}
+
+.headPhoto {
+    width: 8rem;
+    height: 8rem;
+    background: url(data:image/jpeg;base64,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) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: -15%;
+    left: 50%;
+    margin-left: -4rem;
+    transition: all 0.3s;
+}
+
+.meBox:hover .headPhoto {
+    width: 9rem;
+    height: 9rem;
+    margin: -0.5rem 0 0 -4.5rem;
+    transform: rotate(360deg);
+}
+
+.headPhoto:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.meBox-title {
+    width: auto;
+    margin: 0 auto;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.meBox-title p {
+    font-size: 1.2rem;
+    border-right: .1em solid;
+    width: 12ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20, end), blink-caret .3s step-end infinite alternate;
+    margin: -30px 0 0 90px;
+    transition: all 0.3s;
+}
+
+.meBox:hover .meBox-title p {
+    font-size: 1.3rem;
+}
+
+.meBox-title .fg {
+    width: 80%;
+    height: 2px;
+    background-image: linear-gradient(to left, #3498db, #2980b9);
+    margin: 5% 0 0 10%;
+}
+
+.meBox-text {
+    width: 80%;
+    height: 45%;
+    overflow: hidden;
+    text-align: center;
+    color: rgb(70, 70, 70);
+    animation-name: meBox-text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    margin: 5% 0 0 10%;
+    transition: all 0.3s;
+}
+
+.meBox-text p {
+    margin-top: 5px;
+}
+
+.meBox:hover .meBox-text {
+    font-size: 1.05rem;
+}
+
+@keyframes meBox-text {
+    0% {
+        transform: translateY(50px);
+        color: white;
+    }
+
+    100% {
+        transform: translateY(0);
+        color: rgb(70, 70, 70);
+    }
+}
+
+.meBox-Button {
+    width: 100%;
+}
+
+.meBox-Button a {
+    display: inline-block;
+    float: left;
+    width: 158px;
+    height: 50px;
+    margin-top: 13px;
+    line-height: 50px;
+    text-decoration: none;
+    color: gray;
+    transition: all 0.3s;
+}
+
+.meBox-Button a:hover {
+    color: rgb(0, 132, 255);
+    font-size: 1.2rem;
+}
+
+.meBox:hover .meBox-Button a {
+    width: 165px;
+    margin-top: 10px;
+}
+
+#cmdBox {
+    width: 710px;
+    height: 550px;
+    float: right;
+    margin-right: 5%;
+    /* background-color: green; */
+}
+
+.cmd {
+    width: 600px;
+    height: 400px;
+    border-radius: 10px 10px 5px 5px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s;
+    font-size: 14px;
+    color: rgb(88, 89, 92);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.cmd:hover {
+    width: 610px;
+    height: 410px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin: -5px 0 0 -5px;
+    z-index: 1;
+}
+
+.cmd .title {
+    width: 100%;
+    height: 25px;
+    background-image: linear-gradient(to top, rgb(184, 184, 184), white);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.cmd .title span {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.cmd .click {
+    margin-left: 10px;
+    float: left;
+}
+
+.cmd .click div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 8px 0 0 10px;
+    float: left;
+}
+
+.cmd .click .red {
+    background-color: #ff1b22;
+    box-shadow: 0 0 1px #ff1b22;
+}
+
+.cmd .click .red:hover {
+    background-color: #ff6268;
+    box-shadow: 0 0 3px #ff1b22;
+}
+
+.cmd .click .yellow {
+    background-color: #ffaf00;
+    box-shadow: 0 0 1px #ffaf00;
+}
+
+.cmd .click .yellow:hover {
+    background-color: #ffd373;
+    box-shadow: 0 0 3px #ffaf00;
+}
+
+.cmd .click .green {
+    background-color: #00931a;
+    box-shadow: 0 0 1px #00931a;
+}
+
+.cmd .click .green:hover {
+    background-color: rgb(0, 196, 36);
+    box-shadow: 0 0 3px #00931a;
+}
+
+.cmdText {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.cmd2 {
+    position: relative;
+    top: -280px;
+    left: 100px;
+}
+
+.cmd2 .cmdText .ul {
+    margin-left: 15px;
+}
+
+.cmd2 .cmdText .ul a {
+    text-decoration: none;
+    color: rgb(88, 89, 92);
+}
+
+.cmd2 .cmdText .ul a:hover {
+    color: rgb(0, 132, 255);
+}
+
+#footer {
+    width: 100%;
+    color: white;
+    float: left;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    /* background-color: blue; */
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover {
+    color: rgb(0, 81, 255);
+}
+
+/* 自适应 */
+@media screen and (max-width: 1250px)
+{
+    .meBox {
+        margin-left: 3%;
+    }
+
+    .meBox:hover {
+        width: 21rem;
+        height: 26rem;
+        margin: 95px 0 0 2.5%;
+    }
+
+    #cmdBox {
+        margin-right: 3%;
+    }
+}
+
+@media screen and (max-width: 1110px)
+{
+    .meBox {
+        float: none;
+        margin: 100px auto 100px;
+    }
+
+    .meBox:hover {
+        width: 21rem;
+        height: 26rem;
+        margin: 95px auto 95px;
+    }
+
+    #cmdBox {
+        float: none;
+        margin: 0 auto 100px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .meBox {
+        width: 300px;
+    }
+
+    .meBox:hover {
+        width: 300px;
+        height: 25rem;
+        margin: 100px auto 100px;
+    }
+
+    .meBox-Button a:hover {
+        color: rgb(0, 132, 255);
+    }
+    
+    .meBox:hover .meBox-Button a {
+        width: 150px;
+        margin-top: 0;
+    }
+
+    .meBox:hover .meBox-title p {
+        font-size: 1.2rem;
+    }
+
+    .meBox:hover .headPhoto {
+        width: 8rem;
+        height: 8rem;
+        margin: -0.5rem 0 0 -4rem;
+        transform: rotate(360deg);
+    }
+
+    .meBox:hover .meBox-text {
+        font-size: 1rem;
+    }
+
+    .meBox-Button a {
+        width: 150px;
+    }
+
+    #cmdBox {
+        width: 100%;
+        height: 850px;
+    }
+
+    .cmd {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cmd2 {
+        position: relative;
+        top: 20px;
+        left: 0;
+    }
+
+    .cmd:hover {
+        width: 90%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        margin: 0 auto;
+        z-index: 1;
+    }
+}
