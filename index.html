@@ -15,7 +15,7 @@
 	<meta name="keywords" content="B站">
     <link rel="stylesheet" type="text/css" href="./css/FiraCode.css">
     <link rel="stylesheet" type="text/css" href="./css/nutssss.css">
-    <link rel="icon" href="./favicon.png"> 
+    <link rel="icon" href="./favicon.png">
     
 </head>
 
@@ -32,6 +32,7 @@
             </div>
             <div class="meBox-text">
                 <p>你好，这里是Bob实况的官方网站</p>
+				<input type="button" value="测试" onclick="MsgBox()" />
                 <p id="ymd"></p>
                     <script>
                         var date = new Date()<!--获得日期数据-->
@@ -40,13 +41,35 @@
                         var d = date.getDate(); <!--日，getDay是获得当前星期几（0-6），getDate是获得当前日期-->
                         document.getElementById("ymd").innerHTML = "今天是"+y+"年"+m+"月"+d+"日";
                     </script>
-                    <script type="text/javascript" src="dtxt1.js"></script>				
-                <p>最爱<img src="./img/002.png" alt="我的世界" style="width: 100px; vertical-align: middle;"></p>
+                    <script type="text/javascript" src="dtxt1.js"></script>
+
+				<script src="./css/lovetime.js.下载"></script>
+				<h1 style="font-family:华文楷体">祝</h1>
+				<h1 style="font-family:华文行楷;">生日快乐</h1>
+                <!-- <p>最爱<img src="./img/002.png" alt="我的世界" style="width: 100px; vertical-align: middle;"></p> -->
             </div>
             <!-- 两个按钮 -->
             <div class="meBox-Button">
-                <a href="./acg/JS.html">关于</a>
-                <a href="./zt/zt.html">联系</a>
+                <input type="button" value="关于" onclick="MsgBox()" />
+                <!--插入按钮 结束-->                
+                <!--引用JS代码以达到弹出对话框目的 开始-->                
+                <script language="javascript">                
+                function MsgBox() //声明标识符                
+                {
+					alert("此按钮功能已停用"); //弹出对话框
+                }                
+                </script>                
+                <!--引用JS代码以达到弹出对话框目的 结束-->
+                <input type="button" value="联系" onclick="MsgBox()" />
+                <!--插入按钮 结束-->
+				<!--引用JS代码以达到弹出对话框目的 开始-->                
+                <script language="javascript">                
+                function MsgBox() //声明标识符                
+                {
+					alert("此按钮功能已停用"); //弹出对话框
+                }                
+                </script>                
+                <!--引用JS代码以达到弹出对话框目的 结束-->
             </div>
         </div>
 
@@ -69,14 +92,20 @@
                     <span style="color: rgb(0, 190, 0);">root@Bob实况</span>
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">友情链接</span>
-					<ul class="ul">
-						<li><a href="https://fmkli.js.org/">友链：Fmkli的官方网站</a></li>
-					    <li><a href="https://space.bilibili.com/513005445">友链：小刘同学Steven</a></li>		
-						<li><a href="https://www.github.com/">友链：Github</a></li>		
-						<li><a href="https://space.bilibili.com/500073770">友链：晓鱼Fish</a></li>		
-						<li><a href="#">Bob实况的视频(页面维修中)</a></li>		
-						<li><a href="#">空闲の友链</a></li>
-					</ul>
+                    </br>
+                    <a href="https://fmkli.js.org/">友链：Fmkli的官方网站</a>
+                    </br>
+                    <a href="https://space.bilibili.com/513005445">友链：小刘同学Steven</a>
+                    </br>
+                    <a href="https://www.github.com/">友链：Github</a>
+                    </br>
+                    <a href="https://space.bilibili.com/500073770">友链：晓鱼Fish</a>
+                    </br>
+                    <a href="./video/video.html">Bob实况的视频</a>
+                    </br>
+                    <a href="#">友链招租</a>
+                    </br>
+                    <a href="#">友链招租</a>
                     </br>
                     <span style="color: rgb(0, 190, 0);">root@Bob实况</span>
                     <span style="color: blue;">~</span>
@@ -87,7 +116,8 @@
                     <p>这条路我才刚刚迈开了我的第一步</p>
                     <p>路上的坎一定会非常多，但</p>
                     <p>在我眼里</p>
-                    <p>没有什么问题是不能尝试解决的，如果有那就……下次一定[doge]</p>                    
+                    <p>没有什么问题是不能尝试解决的，如果有那就……下次一定[doge]</p>
+                    <p>即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气</p>
                     </br>
                     <span style="color: rgb(0, 190, 0);">root@Bob实况</span>
                     <span style="color: blue;">~</span>
@@ -104,7 +134,7 @@
                 </div>
                 <!-- 顶部标题 -->
                 <div class="title">
-                    <span>入驻平台+今日天气+Music</span>
+                    <span>入驻平台+今日天气</span>
                 </div>
                 <!-- 终端内文字 -->
                 <div class="cmdText">
@@ -123,7 +153,7 @@
                     <span style="color: blue;">~</span>
                     <span style="color: rgb(39, 39, 39);">今日天气&Music</span>
                     <p></p>
-                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=27180681&auto=1&height=66"></iframe>
+                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=469762679&auto=1&height=66"></iframe>
                     </br>
                     <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=ya&skin=pitaya" frameborder="0" width="250" height="200" allowtransparency="true"></iframe>
                 </div>
