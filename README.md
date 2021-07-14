@@ -1,13 +1,29 @@
-# https://seir.in
-我的个人主页作品
+-=-=-=-=-=-=-=-=-=-=-
+首先，我很高兴你能访问我的网站！
+这个网站是Fmkli帮助我建立起来的！
+-=-=-=-=-=-=-=-=-=-=-
+网站模板作者
+github.com:AyagawaSeirin/homepage.git
+作者的git：https://github.com/AyagawaSeirin
+https://github.com/AyagawaSeirin/homepage
+下载提供Fmkli@fmkli.js.org
+交♂流：Fmkli
+网站有1个隐藏的彩蛋ou，需要输入正确の用户名+密码😀
 
-如果你喜欢，可以fork到你的仓库里改改自己用~
-
-目前有两个版本:<br>
-1.双页版，在double分支<br>
-2.单页版，在master分支
-
-目前咱使用的是单页版，单页版是新制作的~
-**使用本源码时请删除谷歌统计代码。**
-
-**使用的时候至少把文字内容改成自己的吧，还留着我的信息不是有毛病吗，造成一大堆误会解释不清楚**
+I don't care
+when you from
+Let's story
+Your F**k home
+No body can
+Stop Me
+Are you ready?
+Yes,I'm ready
+? ? ?
+? ? go
+every week making boom
+our music inside your sole
+enegy mine get blow
+village boy and DJ Blytman
+? ? ? ?
+? ? Cyka Blyte
+————错误+缺失的苏卡不列[doge]
