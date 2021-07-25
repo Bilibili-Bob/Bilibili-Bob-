@@ -46,7 +46,7 @@ body {
     top: -15%;
     left: 50%;
     margin-left: -4rem;
-    transition: all 0.1s;
+    transition: all 0.3s;
 }
 
 .meBox:hover .headPhoto {
