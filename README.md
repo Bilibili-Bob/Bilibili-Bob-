@@ -1,4 +1,4 @@
-首先，我很高兴你能访问我的网站！
+Bob实况|一种实况方式
 这个网站是Fmkli帮助我建立起来的！|
 网站模板作者
 github.com:AyagawaSeirin/homepage.git|
