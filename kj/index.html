@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <title>小科酱の专属页面</title>
+    <link rel="stylesheet" type="text/css" href="./css/FiraCode.css">
+    <link rel="stylesheet" type="text/css" href="./css/nutssss.css">
+    <link rel="icon" href="./favicon.png"> 
+    
+</head>
+
+<body>
+    <div id="box">
+        <!-- 个人资料卡片 -->
+        <div class="meBox">
+            <!-- 头像 -->
+            <div class="headPhoto"></div>
+            <!-- 介绍 -->
+			<!-- <style>
+				@font-face {
+					font-family:Bob;
+					src: url(ziti/AaFangKuaiHei-2.ttf) format(TureType);
+				}
+				div{margin-left: 200px;font-size: 20px;}
+			</style> -->
+            <div class="meBox-title">
+                <p>I'm Bob实况</p>
+                <div class="fg"></div>
+            </div>
+            <div class="meBox-text">
+                <p>小科酱已经出生了</p>
+                <p id="ymd"></p>
+                    <script>
+                        var date = new Date()<!--获得日期数据-->
+                        var y = date.getFullYear();<!--年-->
+                        var m = date.getMonth()+1;<!--月，这里的月份必须要+1才是当前月份-->
+                        var d = date.getDate(); <!--日，getDay是获得当前星期几（0-6），getDate是获得当前日期-->
+                        document.getElementById("ymd").innerHTML = "今天是"+y+"年"+m+"月"+d+"日";
+                    </script>
+					<script>function lovetime() {
+    window.setTimeout("lovetime()", 1000);
+    var seconds = 1000
+    var minutes = seconds * 60
+    var hours = minutes * 60
+    var days = hours * 24
+    var years = days * 365
+    var today = new Date()
+    var todayYear = today.getFullYear()
+    var todayMonth = today.getMonth() + 1
+    var todayDate = today.getDate()
+    var todayHour = today.getHours()
+    var todayMinute = today.getMinutes()
+    var todaySecond = today.getSeconds()
+    var t1 = Date.UTC(2021, 09, 21, 00, 00, 00)
+    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
+    var diff = t2 - t1
+    var diffYears = Math.floor(diff / years)
+    var diffDays = Math.floor((diff / days) - diffYears * 365)
+    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours)
+    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
+    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
+        minutes) / seconds)
+    document.getElementById("lovetime").innerHTML = diffYears + "岁" + diffDays + "天" +
+        diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒"
+}
+lovetime()</script>
+					<p>小科酱现在の年龄是</p>
+					<p id="lovetime"></p>
+					<p>Good luck to you!</p>
+                </div>
+            <!-- 两个按钮 -->
+                <a href="./acg/JS.html">关于我</a>
+                <a href="./zt/zt.html">联系我</a>
+            </div> -->
+        </div>
+    <!-- 页脚 -->
+    <div id="footer">
+        <p>© 2021 Bob实况 | <a href="http://boblive.vercel.app">Bob实况的官方网站</a></p>
+        <p>网站托管 By <a href="https://www.github.com">Github</a></p>
+    </div>
+    <video>
+</body>
+
+</html>
