@@ -33,8 +33,8 @@ function lovetime() {
     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
         minutes) / seconds)
-    document.getElementById("lovetime").innerHTML = "鎴戜滑宸茬粡鍦ㄤ竴璧� " + diffYears + "骞�" + diffDays + "澶�" +
-        diffHours + "灏忔椂" + diffMinutes + "鍒嗛挓" + diffSeconds + "绉掑暒"
+    document.getElementById("lovetime").innerHTML = "鎴戜滑宸茬粡鍦ㄤ竴璧� " + diffYears + "年" + diffDays + "天" +
+        diffHours + "小时" + diffMinutes + "分" + diffSeconds + "秒"
 }
 lovetime()
 
@@ -67,7 +67,7 @@ lovetime()
 .headPhoto {
     width: 8rem;
     height: 8rem;
-    background: url(https://c-ssl.duitang.com/uploads/people/201911/19/20191119132101_xH2WQ.jpeg) no-repeat;
+    background: url(https://boblive.vercel.app/kj/aaa.png) no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: relative;
